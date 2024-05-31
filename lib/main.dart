@@ -29,6 +29,7 @@ class NextGenApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'InterfazPrincipal',
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData(brightness: Brightness.dark),
       home: const TitleScreen(),     
